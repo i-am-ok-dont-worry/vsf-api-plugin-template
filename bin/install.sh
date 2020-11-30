@@ -10,6 +10,6 @@ PLUGIN_NAME=$(cat package.json \
 COMPANY=$(cat package.json | grep company | sed 's/.*"company": "\(.*\)".*/\1/')
 echo "Installing LSF plugin" $PLUGIN_NAME from $COMPANY "..."
 
-mkdir -p "$cwd/vendor/@$COMPANY"
-cp -R src/ vendor/@$COMPANY
-cp README.md vendor/@$COMPANY/README.md
+mkdir -p "$cwd/../../vendor/@$COMPANY"
+cp -R src/ ../../vendor/@$COMPANY
+cp README.md ../../vendor/@$COMPANY/README.md
