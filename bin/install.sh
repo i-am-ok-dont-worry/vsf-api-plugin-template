@@ -8,5 +8,5 @@ PLUGIN_NAME=$(cat package.json \
   | sed 's/[",]//g')
 
 echo "Installing LSF plugin" $PLUGIN_NAME "..."
-mkdir -p $cwd/out
+mkdir -p $cwd/../../out
 cp src/index.js ../../out/index.js
