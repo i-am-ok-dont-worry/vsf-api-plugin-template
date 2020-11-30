@@ -19,8 +19,6 @@ Plugin receives various prosp including:
 - `package.json` must contain `pluginname` entry which describes plugin name
 - `package.json` must contain valid company info e.g.:
 ```
-"author": {
-    "name": "grupakmk"
-}
+"companyname": "grupakmk"
 ```
 
