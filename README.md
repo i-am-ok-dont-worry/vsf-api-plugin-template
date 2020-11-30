@@ -6,7 +6,7 @@ Entry point for plugin is a /src/index.js file. It contains a template function
 for api plugin.
 
 ## Write a plugin
-Plugin receives various prosp including:
+Plugin receives various props including:
 * config - api configuration
 * db - elasticsearch client
 * router - express router
