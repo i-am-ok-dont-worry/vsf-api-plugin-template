@@ -4,7 +4,8 @@
   "description": "Template for VSF api plugin",
   "main": "src/index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "postinstall": "bin/install"
   },
   "repository": {
     "type": "git",
