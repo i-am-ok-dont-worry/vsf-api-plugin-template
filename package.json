@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "test",
-    "postinstall": "bin/install"
+    "postinstall": "sh bin/install.sh"
   },
   "repository": {
     "type": "git",
