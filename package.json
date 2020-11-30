@@ -1,5 +1,6 @@
 {
   "name": "vsf-api-plugin-template",
+  "pluginname": "VSF api plugin",
   "version": "1.0.0",
   "description": "Template for VSF api plugin",
   "main": "src/index.js",
@@ -15,7 +16,10 @@
     "VSF",
     "api"
   ],
-  "author": "Pytel",
+  "author": {
+    "name": "Pytel",
+    "company": "grupakmk"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/i-am-ok-dont-worry/vsf-api-plugin-template/issues"
